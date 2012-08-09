@@ -22,6 +22,10 @@ list<MyStroke>P2DMNClass::P2DMN(short matrix[64][64],list<MyStroke> recognizeTab
 	pr2D(matrix);
 	list<MyStroke>::iterator it=recognizeTable.begin();
 	list<BasePoint>md;
+
+	/*
+
+	 	 */
 	for(int i=0;i<recognizeTable.size();i++,it++)
 	{
 		MyStroke tmp;
