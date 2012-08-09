@@ -41,6 +41,7 @@ list<MyStroke>P2DMNClass::P2DMN(short matrix[64][64],list<MyStroke> recognizeTab
 			col=(col>64)?64:col;
 			row=(row<1)?1:row;
 			row=(row>64)?64:row;
+
 			col--;row--;
 			//RecognizeTable.get(i).getPoints().set(j, new BasePoint(col,row));
 			tmp.addPoint(BasePoint(col,row));
